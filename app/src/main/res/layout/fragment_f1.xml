@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".F1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:id="@+id/middle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+
+        android:layout_above="@+id/top"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3位數達人"
+        android:textStyle="italic"
+        android:textSize="24dp"
+        android:gravity="center"/>
+
+    <ListView
+        android:id="@+id/rank1_List"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+    </LinearLayout>
+
+</FrameLayout>
